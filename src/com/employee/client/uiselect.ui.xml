@@ -1,0 +1,144 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style>
+.panel {
+		background:
+			url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHzbWDfAIeMwJeoQUHGMe7OqUmk2erm6U6W0T9sIm9XGQuDG5hA");
+		background-size: 100%;
+		padding: 0px !important;
+		padding-top: 40% !important;
+		padding-le "src/com/webpearl/client/signin.ui.xml"ft: 30%;
+		padding-rigth: 60%;
+	}
+	
+	.fieldPanel {
+		background: white;
+		padding -left: 46%
+       
+	}
+	
+	.imgProfile {
+		margin-top: -120px;
+		width: 40%;
+		margin-left: 30%;
+		border: 5px solid #fff;
+	}
+	
+	.rowAction {
+		margin-top: 20px;
+	}
+	
+	.login_demo {
+		padding: 5%;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialContainer>
+	<m:MaterialHeader marginTop="0" paddingTop="0">
+	<m:MaterialNavBar backgroundColor="BLUE_DARKEN_4" marginTop="1" paddingTop="1" activates="sidenav">
+	<m:MaterialNavBrand textAlign="CENTER" text="iPARKING" fontSize="2.3em" marginLeft="16"/>
+	<m:MaterialNavSection float="RIGHT">
+	<m:MaterialLink ui:field="home" iconType="POLYMER" iconPosition="LEFT" text="HOME" textColor="WHITE" waves="LIGHT"/>
+	<!--  
+	<m:MaterialLink ui:field="card" iconType="POLYMER" iconPosition="LEFT" text="SELECT" textColor="WHITE" waves="LIGHT"/>
+	-->
+	<m:MaterialLink ui:field="rec" text="Register Area" iconType="POLYMER" textColor="WHITE"/>
+	<m:MaterialLink ui:field="emp" text="Enter Tokens" iconType="POLYMER" textColor="WHITE"/>
+	</m:MaterialNavSection>	
+	</m:MaterialNavBar>	
+	</m:MaterialHeader>
+	
+
+	 <m:MaterialRow addStyleNames="code">
+      <m:MaterialRow>
+        <m:MaterialColumn grid="l4 m6" >
+          <m:MaterialCard backgroundColor="WHITE"  marginTop="40" shadow="4">
+            <m:MaterialCardImage waves="LIGHT">
+              <m:MaterialImage url="https://cdn.dribbble.com/users/285803/screenshots/1066705/dribbble.gif"/>
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Home" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Home" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Go Back to Homepage And Let's Start Again." />
+            </m:MaterialCardReveal>
+
+            <m:MaterialCardAction>
+              <m:MaterialLink text="Wanna Go to Homepage" textColor="BLUE" />
+            </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+        
+        <m:MaterialColumn grid="l4 m8" addStyleNames="{style.fieldPanel}">
+          <m:MaterialCard backgroundColor="WHITE"  marginTop="40" shadow="4">
+            <m:MaterialCardImage waves="LIGHT">
+              <m:MaterialImage url="https://cdn.dribbble.com/users/101441/screenshots/1241298/pins.gif"/>
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Register Area" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Register Area" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Register Your Parking Area in One Simple Go." />
+            </m:MaterialCardReveal>
+
+            <m:MaterialCardAction>
+              <m:MaterialLink text="Let Your Business Meet the World" textColor="BLUE"/>
+        
+            </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+
+        <m:MaterialColumn grid="l4 m10" addStyleNames="{style.fieldPanel}">
+          <m:MaterialCard backgroundColor="WHITE"  marginTop="40" shadow="4">
+            <m:MaterialCardImage waves="LIGHT">
+              <m:MaterialImage url="https://cdn.dribbble.com/users/46315/screenshots/1065283/icons-animation.gif"/>
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Enter Token" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Enter Token" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Enter The No. of Vacant Spots Here " />
+            </m:MaterialCardReveal>
+
+            <m:MaterialCardAction>
+              <m:MaterialLink text="Submit Your Tokens For Today" textColor="BLUE"/>
+            </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+        </m:MaterialRow>
+        </m:MaterialRow>
+	</m:MaterialContainer>
+	<!-- 
+	<m:MaterialRow>
+	<m:MaterialColumn grid="l4" shadow="2"> 
+	<ma:overlay.MaterialOverlay ui:field="overlay" textAlign="CENTER" textColor="WHITE" backgroundColor="YELLOW">
+	<m:MaterialLabel textAlign="CENTER" text="This is an overlay" marginTop="120" fontWeight="LIGHTER" fontSize="2em"/>
+	<m:MaterialCard backgroundColor="ORANGE" grid="l6" offset="l3">
+	<m:MaterialCardContent textColor="WHITE">
+	<m:MaterialCardTitle text="Select" iconType="POLYMER" iconPosition="RIGHT"/>
+	<m:MaterialLabel text="hey"/>
+	</m:MaterialCardContent>
+	<m:MaterialCardAction>
+	<m:MaterialLink ui:field="rec" text="Employeer" iconType="POLYMER" textColor="WHITE"/>
+	<m:MaterialLink ui:field="emp" text="Employee" iconType="POLYMER" textColor="WHITE"/>
+	</m:MaterialCardAction>
+	</m:MaterialCard>
+	<m:MaterialButton ui:field="btnclose" text="Close Overlay" grid="l4" offset="l4" backgroundColor="BROWN"/>
+	</ma:overlay.MaterialOverlay>
+	</m:MaterialColumn>
+	</m:MaterialRow>
+	-->
+	</g:HTMLPanel>
+</ui:UiBinder> 

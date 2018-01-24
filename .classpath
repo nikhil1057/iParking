@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry exported="true" kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/gwt-material-2.0-rc5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/gwt-material-addins-2.0-rc5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/gwt-material-jquery-2.0-rc5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/gwt-material-table-2.0-rc5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/gwt-material-themes-2.0-rc5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/Downloads/neo4j-jdbc-2.3.2-jar-with-dependencies.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/bcprov-jdk16-140.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/commons-codec-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/commons-io-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/commons-lang-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/jersey-client-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/jersey-core-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/jsr311-api-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/protobuf-java-2.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/uidai-auth-client-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/uidai-auth-proto-model-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/uidai-auth-xsd-model-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/uidai-biometric-integration-api-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/uidai-auth-client-1.6-bin/uidai-auth-client-1.6-bin/jar/uidai-sample-gui-app-1.6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
